@@ -1,0 +1,27 @@
+# Base
+palette = 0=#000000
+palette = 1=#ff5555
+palette = 2=#0ae140
+palette = 3=#fff359
+palette = 4=#9863e3
+palette = 5=#ff0586
+palette = 6=#16b4e0
+palette = 7=#000000
+
+# Bright
+palette = 8=#b71569
+palette = 9=#ff5555
+palette = 10=#27f0c1
+palette = 11=#ffc400
+palette = 12=#c9a5ff
+palette = 13=#ff0586
+palette = 14=#fc8a20
+palette = 15=#ffffff
+
+# Default
+background = #000000
+foreground = #ffffff
+cursor-color = #ffc400
+cursor-text = #ffffff
+selection-background = #c9a5ff
+selection-foreground = #000000

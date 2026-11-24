@@ -1,0 +1,44 @@
+[[plugin.deps]]
+use = "alchezar/age-badge"
+rev = "8d49457"
+hash = "c0d9ae7b74acc42fba3106de42a00561"
+
+[[plugin.deps]]
+use = "boydaihungst/file-extra-metadata"
+rev = "8bb639d"
+hash = "8c5f14c09c981a496afaab5184e4aa08"
+
+[[plugin.deps]]
+use = "walldmtd/fs-usage"
+rev = "1b42083"
+hash = "28ac3655541321f006c25463419d719a"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:full-border"
+rev = "4dc7f1b"
+hash = "f281261ff04ad7ec867c3f802a50835f"
+
+[[plugin.deps]]
+use = "Rolv-Apneseth/starship"
+rev = "ea92cf4"
+hash = "9776f378459072b6c2875eae5addc49d"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:git"
+rev = "4dc7f1b"
+hash = "5bb0bfab901d3601c370eafdd66edd31"
+
+[[plugin.deps]]
+use = "Lil-Dank/lazygit"
+rev = "e73fd74"
+hash = "6ea5f37c7f219671ec504cb8311f889d"
+
+[[flavor.deps]]
+use = "CFY98/synthwave84"
+rev = "b7bb92e"
+hash = "71390657660b3639d1a3caec3f734511"
+
+[[flavor.deps]]
+use = "ZimCodes/yazi-flavors:obsidian-soft-glow"
+rev = "c64630b"
+hash = "2d6c03ed1a2133793a5a1371ab1d2573"

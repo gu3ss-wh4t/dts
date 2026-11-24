@@ -1,0 +1,292 @@
+{
+  "about": {
+    "browser": "chrome",
+    "version": "22.3.0"
+  },
+  "advanced": {
+    "altMode": true,
+    "escKey": true
+  },
+  "showall": true,
+  "lang": "en",
+  "dark": "system",
+  "favicon": "",
+  "tabtitle": "",
+  "greeting": "ASC11",
+  "greetingsize": "1.9",
+  "greetingsmode": "auto",
+  "pagegap": 8,
+  "pagewidth": 600,
+  "time": true,
+  "main": true,
+  "dateformat": "auto",
+  "quicklinks": true,
+  "textShadow": 0.375,
+  "announcements": "major",
+  "review": 0,
+  "css": "",
+  "hide": {
+    "greetings": false,
+    "settingsicon": true,
+    "weatherdesc": false,
+    "weathericon": false
+  },
+  "linkstyle": "small",
+  "linktitles": true,
+  "linkbackgrounds": false,
+  "linknewtab": false,
+  "linksrow": "6",
+  "linkiconradius": 1.1,
+  "linkgroups": {
+    "on": true,
+    "selected": "Google",
+    "groups": [
+      "Google"
+    ],
+    "pinned": [],
+    "synced": []
+  },
+  "backgrounds": {
+    "type": "files",
+    "fadein": 0,
+    "blur": 14,
+    "bright": 1,
+    "frequency": "pause",
+    "color": "#185A63",
+    "urls": "",
+    "images": "bonjourr-images-daylight",
+    "videos": "bonjourr-videos-daylight",
+    "mute": true,
+    "queries": {},
+    "texture": {
+      "type": "ticTacToe",
+      "color": "#6b6b6b",
+      "opacity": 0.25,
+      "size": 50
+    },
+    "pausedImage": {
+      "color": "#260c0c",
+      "urls": {
+        "full": "https://images.unsplash.com/photo-1673940308551-65b7fe1c2226?ixid=M3w4ODczOHwwfDF8YWxsfHx8fHx8fHx8MTc4MjQ2NTA0MHw&ixlib=rb-4.1.0&auto=format&fit=crop&crop=entropy&h=2160&w=3840&q=80",
+        "medium": "https://images.unsplash.com/photo-1673940308551-65b7fe1c2226?ixid=M3w4ODczOHwwfDF8YWxsfHx8fHx8fHx8MTc4MjQ2NTA0MHw&ixlib=rb-4.1.0&auto=format&fit=crop&crop=entropy&h=1080&w=1920&q=50",
+        "small": "https://images.unsplash.com/photo-1673940308551-65b7fe1c2226?ixid=M3w4ODczOHwwfDF8YWxsfHx8fHx8fHx8MTc4MjQ2NTA0MHw&ixlib=rb-4.1.0&auto=format&fit=crop&crop=entropy&h=216&w=384&q=60"
+      },
+      "city": "Washington",
+      "country": "United States",
+      "download": "https://unsplash.com/photos/58oowPCx2Xk/download?ixid=M3w4ODczOHwwfDF8YWxsfHx8fHx8fHx8MTc4MjQ2NTA0MHw",
+      "exif": {
+        "aperture": null,
+        "exposure_time": null,
+        "focal_length": null,
+        "iso": null,
+        "make": null,
+        "model": null,
+        "name": null
+      },
+      "name": "Milad Fakurian",
+      "format": "image",
+      "page": "https://unsplash.com/photos/a-close-up-of-a-half-moon-in-the-dark-sky-58oowPCx2Xk",
+      "username": "fakurian"
+    }
+  },
+  "clock": {
+    "size": 1.5,
+    "ampm": true,
+    "analog": false,
+    "seconds": false,
+    "ampmlabel": true,
+    "ampmposition": "top-right",
+    "worldclocks": false,
+    "timezone": "auto"
+  },
+  "worldclocks": [],
+  "analogstyle": {
+    "face": "none",
+    "hands": "modern",
+    "shape": "round",
+    "border": "#ffff",
+    "background": "#fff2"
+  },
+  "weather": {
+    "city": "Vaskelovo, LEN RU",
+    "unit": "metric",
+    "show_unit": false,
+    "provider": "",
+    "moreinfo": "accu",
+    "forecast": "always",
+    "temperature": "both",
+    "geolocation": "off"
+  },
+  "greetingscustom": {
+    "morning": "",
+    "afternoon": "",
+    "evening": "",
+    "night": ""
+  },
+  "notes": {
+    "on": false,
+    "opacity": 0.1,
+    "width": 40,
+    "align": "left",
+    "text": "## Edit this note!\n\n[ ] With markdown titles, lists, and checkboxes\n\n[ ] Learn more on https://bonjourr.fr/docs/overview#notes"
+  },
+  "searchbar": {
+    "on": false,
+    "opacity": 0.1,
+    "newtab": false,
+    "suggestions": true,
+    "engine": "default",
+    "request": "",
+    "placeholder": ""
+  },
+  "quotes": {
+    "on": true,
+    "type": "stoic",
+    "frequency": "hour",
+    "author": true,
+    "last": 1793379637239
+  },
+  "pomodoro": {
+    "on": false,
+    "mode": "pomodoro",
+    "pause": 0,
+    "end": 0,
+    "timeFor": {
+      "pomodoro": 1500,
+      "break": 300,
+      "longbreak": 1200
+    },
+    "focus": false,
+    "sound": true,
+    "volume": 0.7,
+    "alarm": "marimba",
+    "history": []
+  },
+  "font": {
+    "color": "#ffffff",
+    "size": "16.55",
+    "family": "Montserrat Alternates",
+    "system": true,
+    "weightlist": [
+      "100",
+      "200",
+      "300",
+      "400",
+      "500",
+      "600",
+      "700",
+      "800",
+      "900"
+    ],
+    "weight": "300"
+  },
+  "supporters": {
+    "enabled": true
+  },
+  "move": {
+    "selection": "single",
+    "layouts": {
+      "double": {
+        "grid": [
+          [
+            "time",
+            "."
+          ],
+          [
+            "main",
+            "."
+          ],
+          [
+            "quicklinks",
+            "."
+          ]
+        ],
+        "items": {}
+      },
+      "single": {
+        "grid": [
+          [
+            "time"
+          ],
+          [
+            "main"
+          ],
+          [
+            "quicklinks"
+          ],
+          [
+            "quotes"
+          ]
+        ],
+        "items": {
+          "time": {
+            "text": "",
+            "box": "center"
+          },
+          "main": {
+            "text": "",
+            "box": "center"
+          }
+        }
+      },
+      "triple": {
+        "grid": [
+          [
+            ".",
+            "time",
+            "main"
+          ],
+          [
+            ".",
+            "quicklinks",
+            "."
+          ]
+        ],
+        "items": {
+          "quicklinks": {
+            "text": "center",
+            "box": "end center"
+          }
+        }
+      }
+    }
+  },
+  "linksblqbpl": {
+    "_id": "linksblqbpl",
+    "order": 1,
+    "parent": "Google",
+    "title": "Gmail",
+    "url": "https://mail.google.com"
+  },
+  "linksegjnbb": {
+    "_id": "linksegjnbb",
+    "order": 0,
+    "parent": "Google",
+    "title": "Youtube",
+    "url": "https://youtube.com"
+  },
+  "linkselaphm": {
+    "_id": "linkselaphm",
+    "order": 2,
+    "parent": "Google",
+    "title": "Maps",
+    "url": "https://maps.google.com"
+  },
+  "linkslkohbb": {
+    "_id": "linkslkohbb",
+    "order": 4,
+    "parent": "Google",
+    "title": "YTMusic",
+    "url": "https://music.youtube.com/",
+    "icon": {
+      "type": "auto"
+    }
+  },
+  "linkslrhlng": {
+    "_id": "linkslrhlng",
+    "order": 3,
+    "parent": "Google",
+    "title": "Calendar",
+    "url": "https://calendar.google.com"
+  }
+}

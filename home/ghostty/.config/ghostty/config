@@ -1,0 +1,17 @@
+shell-integration-features = no-cursor
+cursor-style = underline
+cursor-color = #fc8a20
+cursor-style-blink = true
+font-family = FantasqueSansM Nerd Font
+font-style = "Medium"
+font-feature = +liga, +calt, +dlig
+font-size = 14
+bold-is-bright = true
+theme = theme
+confirm-close-surface = false
+mouse-hide-while-typing = true
+scrollback-limit = 20000000
+link-previews = true
+custom-shader = shaders/cursor_smear_rainbow_original.glsl
+#custom-shader = shaders/cursor_smear_gradient_original.glsl
+

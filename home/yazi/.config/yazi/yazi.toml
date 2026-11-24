@@ -1,0 +1,25 @@
+[mgr]
+show_hidden = true
+show_symlink = true
+ratio = [2, 4, 3]
+
+# ! Plugins
+# # File-extra-metadata
+# ya pkg add boydaihungst/file-extra-metadata
+[plugin]
+append_previewers = [{ url = "*", run = "file-extra-metadata" }]
+
+# Setup keybind for spotter: https://github.com/sxyazi/yazi/pull/1802
+append_spotters = [{ url = "*", run = "file-extra-metadata" }]
+
+# # git
+# ya pkg add yazi-rs/plugins:git
+[[plugin.prepend_fetchers]]
+url = "*"
+run = "git"
+group = "git"
+
+[[plugin.prepend_fetchers]]
+url = "*/"
+run = "git"
+group = "git"

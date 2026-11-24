@@ -1,0 +1,48 @@
+// DMS Window Rules - Managed by Dux Modular Shell
+// Do not edit manually - changes may be overwritten
+
+// @id=dms-floating-windows @name=DMS Floating Windows
+window-rule {
+    match app-id="^(dev\\.duxlabs\\.shell|com\\.danklinux\\.dms)$"
+    open-floating true
+}
+
+// @id=wr_1793373485765265601 @name=helium.popup
+window-rule {
+    match app-id="^chrome-fjllepdpgikphekgbinhpdkalliiejdh-Default$"
+    open-floating true
+    default-column-width { proportion 0.85; }
+    default-window-height { proportion 0.95; }
+}
+
+// @id=wr_1794322897190348137 @name=org.keepassxc.KeePassXC
+window-rule {
+    match app-id="^org.keepassxc.KeePassXC$"
+    open-floating true
+    open-focused true
+    default-column-width { proportion 0.45; }
+    default-window-height { proportion 0.75; }
+}
+
+// @id=wr_1794323159991570740 @name=Happ
+window-rule {
+    match app-id="^Happ$"
+    open-floating true
+    open-focused true
+    default-column-width { fixed 1000; }
+    default-window-height { fixed 800; }
+    max-width 1000
+    max-height 800
+}
+
+// @id=wr_1795101335159242352 @name=Stremio
+window-rule {
+    match app-id="^Stremio$"
+    open-fullscreen true
+}
+
+// @id=dms-window-opaque @name=DMS Window Opaque
+window-rule {
+    match app-id="^(dev\\.duxlabs\\.shell|com\\.danklinux\\.dms)$"
+    opacity 1.00
+}

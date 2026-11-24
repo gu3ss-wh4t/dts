@@ -1,0 +1,40 @@
+{
+ "version": 2,
+ "bookmarks": [
+  {
+   "path": "/home/asc11",
+   "label": "asc11",
+   "icon": ""
+  },
+  {
+   "path": "/home/asc11/.config",
+   "label": ".config",
+   "icon": ""
+  },
+  {
+   "path": "/home/asc11/dts",
+   "label": "dts",
+   "icon": ""
+  },
+  {
+   "path": "/home/asc11/Documents",
+   "label": "Documents",
+   "icon": ""
+  },
+  {
+   "path": "/home/asc11/Downloads",
+   "label": "Downloads",
+   "icon": ""
+  },
+  {
+   "path": "/home/asc11/Projects",
+   "label": "Projects",
+   "icon": ""
+  },
+  {
+   "path": "/home/asc11/Pictures",
+   "label": "Pictures",
+   "icon": ""
+  }
+ ]
+}

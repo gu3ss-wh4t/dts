@@ -1,0 +1,111 @@
+// DMS Window Rules - Managed by Dux Modular Shell
+// Do not edit manually - changes may be overwritten
+
+// @id=dms-floating-windows @name=DMS Floating Windows
+window-rule {
+    match app-id="^(dev\\.duxlabs\\.shell|com\\.danklinux\\.dms)$"
+    open-floating true
+}
+
+// @id=wr_1791371134208752279 @name=com.mitchellh.ghostty
+window-rule {
+    match app-id="^com.mitchellh.ghostty$"
+    open-on-output "DVI-D-1"
+}
+
+// @id=wr_1791371734487799075 @name=Stremio
+window-rule {
+    match app-id="^Stremio$"
+    open-fullscreen true
+    open-on-output "HDMI-A-1"
+}
+
+// @id=wr_1793364492981610382 @name=dev.duxlabs.files
+window-rule {
+    match app-id="^dev.duxlabs.files$"
+    open-on-output "DVI-D-1"
+}
+
+// @id=wr_1793373485765265601 @name=helium.popup
+window-rule {
+    match app-id="^chrome-fjllepdpgikphekgbinhpdkalliiejdh-Default$"
+    open-floating true
+    default-column-width { proportion 0.85; }
+    default-window-height { proportion 0.95; }
+}
+
+// @id=wr_1793458393263772287 @name=chrome-agimnkijcaahngcdmfeangaknmldooml-Default
+window-rule {
+    match app-id="^chrome-agimnkijcaahngcdmfeangaknmldooml-Default$"
+    open-fullscreen true
+    open-on-output "DVI-D-1"
+}
+
+// @id=wr_1793458430280339662 @name=org.telegram.desktop
+window-rule {
+    match app-id="^org.telegram.desktop$"
+    open-fullscreen true
+    open-on-output "DVI-D-1"
+}
+
+// @id=wr_1793458453330671792 @name=chrome-cinhimbnkkaeohfgghhklpknlkffjgod-Default
+window-rule {
+    match app-id="^chrome-cinhimbnkkaeohfgghhklpknlkffjgod-Default$"
+    open-fullscreen true
+    open-on-output "DVI-D-1"
+}
+
+// @id=wr_1793459817746492135 @name=Happ
+window-rule {
+    match app-id="^Happ$"
+    open-floating true
+    open-focused true
+    open-on-output "DVI-D-1"
+    default-column-width { fixed 1000; }
+    default-window-height { fixed 950; }
+}
+
+// @id=wr_1793607875919129883 @name=org.keepassxc.KeePassXC
+window-rule {
+    match app-id="^org.keepassxc.KeePassXC$"
+    open-floating true
+    open-focused true
+    open-on-output "DVI-D-1"
+    default-column-width { proportion 0.8; }
+    default-window-height { proportion 0.85; }
+}
+
+// @id=wr_1793623140281990530 @name=dev.duxlabs.calendar
+window-rule {
+    match app-id="^dev.duxlabs.calendar$"
+    open-fullscreen true
+    open-focused true
+    open-on-output "DVI-D-1"
+}
+
+// @id=wr_1794832221146543140 @name=superproductivity
+window-rule {
+    match app-id="^superproductivity$"
+    open-maximized true
+    open-on-output "DVI-D-1"
+}
+
+// @id=wr_1795241060501420165 @name=com.stremio.stremio
+window-rule {
+    match app-id="^com.stremio.stremio$"
+    open-fullscreen true
+    open-on-output "HDMI-A-1"
+}
+
+// @id=wr_1795250865348644065 @name=chrome-mjoklplbddabcmpepnokjaffbmgbkkgg-Default
+window-rule {
+    match app-id="^chrome-mjoklplbddabcmpepnokjaffbmgbkkgg-Default$"
+    open-fullscreen true
+    open-on-output "DVI-D-1"
+}
+
+// @id=dms-window-opaque @name=DMS Window Opaque
+window-rule {
+    match app-id="^(dev\\.duxlabs\\.shell|com\\.danklinux\\.dms)$"
+    opacity 1.00
+}
